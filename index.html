@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="./acessets/logo detetive.png" alt="logo detetive">
+        </header>
+        <main class="container_principal">
+
+            <div class="container_input">
+                <div class="input">
+                    <textarea id="input_texto" placeholder="Digite o seu texto aqui..." ></textarea>
+                </div>
+
+                <div id="output">
+                    <img src="./acessets/detetive 2.png" alt="um detetive">
+                    <h2 class="separar_texto">Nenhuma mensagem encontrada</h2>
+                    <span class="separar_texto">Digite um texto que você deseja Criptografar ou Descriptografar.</span>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <div class="container_bnt">
+                    <p class="aviso"> <img class="icon-pequeno" src="./acessets/" alt=""> Apenas letras minúscula e sem acento.</p>
+                    <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                    <button onclick="descriptografar()" class="bnt-descriptografar">Descriptografar</button>
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="rodape">
+            <p class="text-rodape">Desenvolvido por Vinicios Souza.</p>
+        </footer>
+
+
+        <script src="./js/app.js" defer></script>
+</body>
+</html>
